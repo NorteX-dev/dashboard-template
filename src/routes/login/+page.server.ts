@@ -26,6 +26,7 @@ export const actions: Actions = {
 			username: z.string().min(1, { message: "Username is required" }),
 			password: z.string().min(1, { message: "Password is required" })
 		});
+
 		const dtoParsingResult = userLoginDto.safeParse({ username, password });
 		if (!dtoParsingResult.success) {
 			let usernameIssue = dtoParsingResult.error.errors.find((e) => e.path[0] === "username");
