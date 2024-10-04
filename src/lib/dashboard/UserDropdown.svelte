@@ -14,9 +14,9 @@
 	<DropdownMenu.Content align="end">
 		<DropdownMenu.Label>My Account</DropdownMenu.Label>
 		<DropdownMenu.Separator />
-		<DropdownMenu.Item>Settings</DropdownMenu.Item>
-		<DropdownMenu.Item>Support</DropdownMenu.Item>
+		<DropdownMenu.Item href="/dashboard/profile">Profile</DropdownMenu.Item>
+		<DropdownMenu.Item href="/dashboard/settings">Settings</DropdownMenu.Item>
 		<DropdownMenu.Separator />
-		<DropdownMenu.Item>Logout</DropdownMenu.Item>
+		<DropdownMenu.Item href="/logout">Logout</DropdownMenu.Item>
 	</DropdownMenu.Content>
 </DropdownMenu.Root>
